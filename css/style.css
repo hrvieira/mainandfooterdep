@@ -1,0 +1,72 @@
+/* Importação de fonte via Google Fonts --------- */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+/* Transferindo as cores para var --------- */
+
+:root {
+    --cerise-color: #DB1E8C;
+
+    --carnation-color: #FF97D3;
+
+    --pickled-bluewood-color: #33475B;
+
+    --white-color: #FFFFFF;
+
+    --cornflower-color: #264FEC;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Reset básico --------- */
+/* {
+    /* margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Body --------- */
+body {
+    background-color: var(--pickled-bluewood-color);
+}
+
+/* Header --------- */
+header {
+    height: 80px;
+    background-color: var(--white-color);
+    display: flex;
+}
+
+.container-elementos-header {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-principal {
+    font-size: 24px;
+    color: var(--cornflower-color);
+    font-weight: 400;
+    margin-left: 180px;
+}
+
+.label-pesquisa {
+    background-color: var(--cerise-color);
+    height: 30px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+}
+
+.input-pesquisa {
+    background-color: transparent;
+    padding: 4px;
+    border: none;
+}
+
+::placeholder {
+    color: var(--carnation-color);
+}
