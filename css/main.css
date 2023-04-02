@@ -1,7 +1,7 @@
 .trilhas {
   width: 1280px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 2rem 0 2rem;
 }
 
 .trilhas li:nth-child(1) {
@@ -19,25 +19,22 @@
 .trilhas ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .trilhas li {
-  padding: 36px;
+  padding: 2.3rem;
 }
 
 .box-trilha {
-  width: 250px;
-  height: 385px;
+  width: 20rem;
+  height: 24rem;
   border-radius: 4px;
   margin: 20px;
-  flex-grow: 1;
 
   background: #F5F5F5;
 
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .titulos-trilha {
@@ -68,10 +65,23 @@
   border: 1px solid var(--cornflower-color);
   border-radius: 4px;
 
-  width: 138.77px;
+  width: 50%;
   height: 47.48px;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.titulo-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  height: 100%;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
 }
